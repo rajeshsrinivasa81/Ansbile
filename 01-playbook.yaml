@@ -2,4 +2,5 @@
   hosts: web
   tasks: # task = module = collection = action need to be performed 
     - name: ping the server 
-      ansible.builtin.ping
+        ansible.builtin.ping:
+
