@@ -3,12 +3,17 @@
   become: yes # provoiding sudo access to install nginx
   tasks:
   - name: Install Nginx
-  ansible.builtin.package:
-    name: ntpdate
-    state: present
-    enabled: yes
- - name: Start service nginx, if not started
-  ansible.builtin.service:
-    name: nginx
-    state: started
+    ansible.builtin.package:
+      name: ntpdate
+      state: present   
+  - name: Start service nginx
+    ansible.builtin.service:
+      name: nginx
+      state: started
+      enabled: yes
+
+
+
+
+
 
