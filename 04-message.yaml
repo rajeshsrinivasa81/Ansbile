@@ -2,6 +2,6 @@
   hosts: web
   tasks:
   - name: Print the gateway for each host when defined
-  ansible.builtin.debug:
-    msg: "Hello World"
+    ansible.builtin.debug:
+     msg: "Hello World"
 
