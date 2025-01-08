@@ -1,0 +1,18 @@
+---
+#Scalars
+- name: Rajesh 
+  Age: 43
+  Place: Bangalore 
+#List
+- Hobbies:
+    - Swimming:
+    - Cricket:
+    - FootBall:
+#Mapping
+- FoodItems:
+   Fruits: Oranges
+   Meat: Chicken
+#MulitScalars
+- Thiscripisfor: | 
+   This is the sample format of an YAML file 
+

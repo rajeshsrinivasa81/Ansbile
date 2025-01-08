@@ -1,2 +1,5 @@
-name: Example to ping the server
-    ansible.builtin.ping
+- name: Ping
+  hosts: Web
+  tasks: # task = module = collection = action need to be performed 
+    - name: ping the server 
+        ansible.builtin.ping
